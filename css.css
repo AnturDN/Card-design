@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main_container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(33, 16, 16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+.card{
+    position: relative;
+    background-color: rgb(37, 47, 60);
+    width: 350px;
+    height: 75%;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 5px black;
+}
+.card_img{
+    position: relative;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: radial-gradient(circle, rgb(58, 58, 143),black); */
+    background: radial-gradient(circle, rgb(41, 41, 130), black);
+}
+.card_img img{
+    width: 160px;
+    height: 210px;
+    
+}
+
+.card_img .price_tag{
+    color: white;
+    position: absolute;
+    top: 2px;
+    right: 30px;
+    box-shadow: 2px 2px 5px rgb(59, 118, 189);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: rgb(26, 58, 98);
+}
+.card_body{
+    background-color: rgb(20, 19, 19);
+    color: white;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+.line{
+    width: 6px;
+    height: 130px;
+    background-color: rgb(18, 18, 70);
+    /* box-shadow: 2px 2px; */
+}
+.card_body .left_info{
+    padding: 5px;
+    margin-bottom: 53px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.stars{
+    width: 100%;
+    /* text-shadow: 0 0 10px rgb(144, 148, 225); */
+    color: rgb(87, 72, 146);
+}
+.card_body .right_info{
+    margin-left: 5px;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+h3{
+    font-size: 15px;
+    text-shadow: 0 0 10px rgb(144, 148, 225);
+}
+span{
+    font-size: 12px;
+}
+.btn {
+    height: 35px;
+    width: 100%;
+    background-color: rgb(21, 21, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+button{
+    margin-bottom: 5px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(11, 11, 15);
+    cursor: pointer;
+    width: 130px;
+    height: 25px;
+    box-shadow: 2px 2px 5px rgb(51, 56, 103);
+    transition: 0.3s;
+}
+button:hover{
+    transform: translateY(-2px);
+}
+.card_img2{
+    position: relative;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, rgb(33, 103, 61), rgb(1, 1, 14));
+}
+.card_img2 img{
+    width: 160px;
+    height: 210px;
+}
+.card_img2 .price_tag{
+    color: white;
+    position: absolute;
+    top: 2px;
+    right: 30px;
+    box-shadow: 2px 2px 5px rgb(59, 118, 189);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: rgb(25, 75, 47);
+} 
+.stars2{
+    width: 100%;
+    /* text-shadow: 0 0 5px rgb(41, 47, 147); */
+    color: rgb(41, 142, 68);
+}
+.line2{
+    width: 6px;
+    height: 130px;
+    background-color: rgb(44, 95, 55);
+    /* box-shadow: 2px 2px; */
+}
+.btn2 {
+    height: 35px;
+    width: 100%;
+    background-color: rgb(20, 49, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn2 button{
+    background-color: rgb(21, 18, 48);
+}
+.card_img3{
+    position: relative;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, rgb(144, 66, 66),black)
+}
+.card_img3 img{
+    width: 170px;
+    height: 120px;
+}
+.card_img3 .price_tag{
+    color: white;
+    position: absolute;
+    top: 2px;
+    right: 30px;
+    box-shadow: 2px 2px 5px rgb(80, 81, 83);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #572828;
+}
+.stars3{
+    width: 100%;
+    /* text-shadow: 0 0 5px rgb(144, 148, 225); */
+    color: rgb(206, 99, 115);
+}
+.btn3 {
+    height: 35px;
+    width: 100%;
+    background-color: rgb(78, 27, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn3 button{
+    background-color: rgb(12, 11, 11);
+}
+.line3{
+    width: 6px;
+    height: 130px;
+    background-color: rgb(70, 18, 18);
+    /* box-shadow: 2px 2px; */
+}
